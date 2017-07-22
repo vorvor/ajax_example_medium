@@ -1,0 +1,17 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  	<meta http-equiv="Expires" content="0"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> <!-- include jQuery -->
+  <script src="js/ajax.js"></script> <!-- let's include our own php snippet which will answer the request -->
+</head>
+<body>
+  <input type="text" id="text-to-send">
+  <input type="button" id="ajax-magic" value="Hey!"> <!-- the event when ajax request will be sent the click of this button -->
+  <div id="message-arrived-from-server"> <!-- container for the data will arrive by ajax request -->
+  </div>
+</body>
+</html>
